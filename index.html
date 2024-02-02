@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktive Gestaltung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-from-the-left">
+            <!-- import menu.svg from icons -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-menu clickable" id="hamburger-menu-button">
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+            <!-- <h1>hi</h1> -->
+        </div>
+        <div class="header-from-the-right">
+            <div class="clickable" id="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-search">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
+                </svg>
+                <div id="search-line" class="search-line">
+                    <input type="text">
+                </div>
+                <h1>Search</h1>
+            </div>
+            <div class="clickable">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-user-round">
+                    <circle cx="12" cy="8" r="5" />
+                    <path d="M20 21a8 8 0 0 0-16 0" />
+                </svg>
+                <h1>Create&nbspAccount</h1>
+            </div>
+            <div class="clickable">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-log-in">
+                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+                    <polyline points="10 17 15 12 10 7" />
+                    <line x1="15" x2="3" y1="12" y2="12" />
+                </svg>
+                <h1>Login</h1>
+            </div>
+            <div class="clickable">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-help-circle">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                    <path d="M12 17h.01" />
+                </svg>
+                <h1>Help</h1>
+            </div>
+
+        </div>
+    </div>
+    <div class="side-menu" id="side-menu">
+        <div class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-x clickable" id="close-sidebar-button">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+            </svg>
+        </div>
+        <h2 class="clickable">Home</h2>
+        <h2 class="clickable">Contents</h2>
+        <h2 class="clickable">Current events</h2>
+        <h2 class="clickable">Random article</h2>
+        <h2 class="clickable">About</h2>
+        <h2 class="clickable">Contact</h2>
+        <h2 class="clickable">Donate</h2>
+    </div>
+
+    <script src="index.js"></script>
+
+    <div class="iframe-container">
+        <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZRihO9qeDLCSwLrcnDA2kA%2Fdownload-button%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D0-5%26viewport%3D395%252C344%252C0.24%26t%3DHmAXY6t1k8xrcAcH-1%26scaling%3Dscale-down-width%26mode%3Ddesign"></iframe>
+        <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv7QvJ9m21B9mw9XL3x8BxS%2Fwifi-button%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D0-4%26viewport%3D364%252C292%252C0.47%26t%3DrzxhFuAQi6Dt2Bwz-1%26scaling%3Dscale-down-width%26mode%3Ddesign"></iframe>
+        <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDuIbVeV6O9buBTOkjyS7Qi%2Fliste%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-6%26viewport%3D669%252C533%252C0.49%26t%3DuvbnmYFKmlAnqaM8-1%26scaling%3Dscale-down-width%26mode%3Ddesign"></iframe>
+        <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUbzICguneBRwF63FoIk1cm%2Fhabit-tracker%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D0-5%26viewport%3D669%252C533%252C0.63%26t%3DfatBpkdTAvo48psi-1%26scaling%3Dscale-down-width%26mode%3Ddesign"></iframe>
+        <iframe frameborder="0" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhRMcTbs2EJb9eky7pKhERL%2Fmediensteuerung%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D106-435%26viewport%3D-2042%252C-6621%252C1.31%26t%3DLs7dckCnFOHW2K70-1%26scaling%3Dscale-down-width%26mode%3Ddesign"></iframe>
+    </div>
+
+</body>
+
+
+</html>
